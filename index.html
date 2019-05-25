@@ -1,215 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <title>Orbit - Bootstrap 4 Resume/CV Template for Developers</title>
-    
+    <title>角田 孝昭 - ttsunoda.net</title>
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <meta name="description" content="角田 孝昭のレジュメ的なもの">
+    <meta name="author" content="Takaaki Tsunoda">
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
-</head> 
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-3.css">
+
+    <style>
+      .main-wrapper .section-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif;
+        font-weight: bold;
+      }
+
+      span.author {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .bibs li {
+        margin: 6px 0;
+      }
+
+      li p {
+        margin-bottom: 6px;
+      }
+
+      .subsubsection {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #97aac3;
+      }
+    </style>
+</head>
 
 <body>
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Alan Doe</h1>
-                <h3 class="tagline">Full Stack Developer</h3>
+                <img class="profile" src="assets/images/profile.jpg" width="128px" alt="" />
+                <h1 class="name">角田 孝昭</h1>
+                <h3 class="tagline">TSUNODA Takaakai</h3>
             </div><!--//profile-container-->
-            
+
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: yourname@email.com">alan.doe@website.com</a></li>
-                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li>
-                    <li class="website"><i class="fas fa-globe"></i><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li>
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="#" target="_blank">linkedin.com/in/alandoe</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="#" target="_blank">github.com/username</a></li>
-                    <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i>lpm&lt;5番目の素数&gt;r@gmail.com</li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/lpm11" target="_blank">lpm11</a></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/lpm11" target="_blank">@lpm11</a></li>
                 </ul>
             </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">MSc in Computer Science</h4>
-                    <h5 class="meta">University of London</h5>
-                    <div class="time">2011 - 2012</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">BSc in Applied Mathematics</h4>
-                    <h5 class="meta">Bristol University</h5>
-                    <div class="time">2007 - 2011</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Native)</span></li>
-                    <li>French <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
-                </ul>
-            </div><!--//interests-->
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Climbing</li>
-                    <li>Snowboarding</li>
-                    <li>Cooking</li>
-                </ul>
-            </div><!--//interests-->
-            
+
         </div><!--//sidebar-wrapper-->
-        
+
         <div class="main-wrapper">
-            
+
+          <section class="section experiences-section">
+              <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>職歴</h2>
+
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">データマイニング・機械学習エンジニア</h3>
+                          <div class="time">2016 - Present</div>
+                      </div><!--//upper-row-->
+                      <div class="company"><a href="https://www.cyberagent.co.jp/techinfo/labo/akihabara/">株式会社サイバーエージェント 秋葉原ラボ</a></div>
+                  </div><!--//meta-->
+                  <div class="details">
+                      <p>自然言語処理を中心としたデータ分析や機械学習システムの開発を行っています。特にメディアサービスの信頼と安全（Trust &amp; Safety）を守るため、メディアサービスの持つ大規模データの利活用を進めています。</p>
+                  </div><!--//details-->
+              </div><!--//item-->
+
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">データサイエンティスト育成講座 外部講師</h3>
+                          <div class="time">2017 - 2018</div>
+                      </div><!--//upper-row-->
+                      <div class="company"><a href="https://datamix.co.jp/">株式会社データミックス</a></div>
+                  </div><!--//meta-->
+                  <div class="details">
+                      <p>社会人向けの講座「データサイエンティスト育成コース」にて、自然言語処理・Web データ活用に関する講義と実習を担当しました。</p>
+                  </div><!--//details-->
+              </div><!--//item-->
+
+          </section><!--//section-->
+
+          <section class="section experiences-section">
+              <h2 class="section-title"><span class="icon-holder"><i class="fas fa-university"></i></span>学歴</h2>
+
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻 博士後期課程</h3>
+                          <div class="time">2013 - 2016</div>
+                      </div><!--//upper-row-->
+                      <div class="company">博士（工学）</div>
+                  </div><!--//meta-->
+              </div><!--//item-->
+
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻 博士前期課程</h3>
+                          <div class="time">2011 - 2013</div>
+                      </div><!--//upper-row-->
+                      <div class="company">修士（工学）</div>
+                  </div><!--//meta-->
+              </div><!--//item-->
+
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">筑波大学 情報学群 情報メディア創成学類</h3>
+                          <div class="time">2007 - 2011</div>
+                      </div><!--//upper-row-->
+                      <div class="company">学士（情報メディア科学）</div>
+                  </div><!--//meta-->
+              </div><!--//item-->
+
+          </section><!--//section-->
+
+          <section class="section summary-section">
+              <h2 class="section-title"><span class="icon-holder"><i class="fas fa-bullhorn"></i></span>登壇など</h2>
+
+              <div class="summary">
+                  <h3 class="job-title">勉強会</h3>
+                  <ul class="bibs">
+                      <li>
+                          <a href="https://www.slideshare.net/cyberagent/aws-reinvent-2018-126078650">機械学習エンジニアを魅せた AWS の再:発明とは？ 〜re:Invent 2018 参加レポート〜</a> (<a href="https://cyberagent.connpass.com/event/105116/">CA Data Engineering & Data Analysis WS #7</a>)
+                      </li>
+                  </ul>
+
+                  <h3 class="job-title">論文読み会</h3>
+                  <ul class="bibs">
+                      <li>
+                        <a href="https://www.slideshare.net/cyberagent/www2018-web-search-and-mining">Web Search and Mining セッション要約</a> (<a href="https://cyberagent.connpass.com/event/92925/">WWW2018 論文読み会</a>) <a href="https://developers.cyberagent.co.jp/blog/archives/17008/">[開催レポート記事]</a>
+                      </li>
+                      <li>
+                        <a href="https://www.slideshare.net/cyberagent/www2017-spam-detection-question-answering-amp-topic-modeling">Spam Detection, Question Answering & Topic Modeling セッション要約</a> (<a href="https://cyberagent.connpass.com/event/68799/">WWW2017 論文読み会</a>) <a href="https://developers.cyberagent.co.jp/blog/archives/12402/">[開催レポート記事]</a>
+                      </li>
+                  </ul>
+              </div><!--//summary-->
+            </section><!--//section-->
+
             <section class="section summary-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-book"></i></span>論文・学術会議など</h2>
                 <div class="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                    <h3 class="job-title">学術雑誌（査読有り）</h3>
+                    <ol class="bibs">
+                        <li>
+                            <span class="author">角田孝昭</span>, 乾孝司, 山本幹雄. 対をなす二文書間における文対応関係の推定. 自然言語処理. 22 (1), 2015年3月.
+                        </li>
+                    </ol>
+
+                    <h3 class="job-title">国際会議・ワークショップ（査読有り）</h3>
+                    <ol class="bibs">
+                        <li>
+                            Masanori Takano, <span class="author">Takaaki Tsunoda</span>. Self-Disclosure of Bullying Experiences and Social Support in Avatar Communication: Analysis of Verbal and Nonverbal Communications. The 13th in International AAAI Conference on Web and Social Media (ICWSM-2019), Munich, Germany, Jun. 2019.
+                        </li>
+                        <li>
+                            Masanori Takano, <span class="author">Takaaki Tsunoda</span>. Bullied-Experience Talks in Online Communications: Support for Bullied Children. 4th Annual International Conference on Computational Social Science (IC2S2-2018), Extended Abstract, Northwestern University, Jul. 2018.
+                        </li>
+                        <li>
+                            <span class="author">Takaaki Tsunoda</span>, Takashi Inui, Satoshi Sekine. Utilizing review analysis to suggest product advertisement improvements. 6th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (WASSA-2015), Lisboa, Portugal, Sep. 2015.
+                        </li>
+                        <li>
+                            Mitsuo Yoshida, Yuki Arase, <span class="author">Takaaki Tsunoda</span>, Mikio Yamamoto. Wikipedia Page View Reflects Web Search Trend. ACM Web Science conference (WebSci'15), University of Oxford, Jun. 2015.
+                        </li>
+                    </ol>
+
+                    <h3 class="job-title">国内学会・ワークショップ</h3>
+                    <ol class="bibs">
+                        <li>
+                            高野雅典, <span class="author">角田孝昭</span>. オンラインコミュニケーションにおける「いじめ経験の告白」. 人工知能学会2018年度（第32回）全国大会（JSAI-2018）, 3O1-OS-1a-02, 城山ホテル鹿児島, 2018年6月.
+                        </il>
+                        <li>
+                            高野雅典, <span class="author">角田孝昭</span>. オンラインコミュニケーションにおける “いじめ経験の相談”: いじめ被害者に対するソーシャルサポート". 第二回計算社会科学ワークショップ, 東京大学, 2018年3月.
+                        </li>
+                        <li>
+                            高野雅典, <span class="author">角田孝昭</span>. 仮想社会におけるソーシャルサポート効果の検証 ～ ピグパーティにおけるいじめ相談 ～. 電子情報通信学会 教育工学研究会（ET）, 上智大学, 2017年11月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>. アメーバブログの分析事例: もっと読みたくなるサービスを届けるためのエントリ分析. 第10回 Webとデータベースに関するフォーラム（WebDB Forum 2017）, お茶の水女子大学, 2017年9月.
+                        </li>
+                        <li>
+                            數見拓朗, <span class="author">角田孝昭</span>. アメーバブログにおけるスプログの特徴と検知手法の検証. 人工知能学会 合同研究会 第11回 データ指向構成マイニングとシミュレーション研究会（SIG-DOCMAS2016）, 慶應義塾大学, 2016年11月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, 吉田光男, 津川翔, 山本幹雄. 状態空間モデルを用いた検索トレンドとページビューからの自動車販売台数の予測. 人工知能学会2015年度（第29回）全国大会（JSAI-2015）, 3C3-3, 公立はこだて未来大学, 2015年6月.
+                        </li>
+                        <li>
+                            吉田光男, 荒瀬由紀, <span class="author">角田孝昭</span>, 山本幹雄. 検索頻度推定のためのWikipediaページビューデータの分析. 人工知能学会2015年度（第29回）全国大会（JSAI-2015）, 2I1-1, 公立はこだて未来大学, 2015年6月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, Zofia Stankiewicz, 関根聡. 商品紹介文改善のための紹介文およびレビュー集合における評価視点の整理. 言語処理学会第20回年次大会（NLP-2014）, P8-1, pp. 876-879, 北海道大学, 2014年3月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, 乾孝司, 山本幹雄. 対をなす二文書間における文対応推定および応答文生成への応用. 言語処理学会第19回年次大会（NLP-2013）, B3-3, pp. 198-201, 名古屋大学, 2013年3月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, 乾孝司, 山本幹雄. 局所的及び大域的文脈を併用した日本語同音異義語誤りの訂正. 言語処理学会第17回年次大会（NLP-2011）, P3-14, pp. 635-638, 豊橋科学技術大学, 2011年3月.
+                        </li>
+                    </ol>
+
+                    <h3 class="job-title">シンポジウム他</h3>
+                    <ol class="bibs">
+                        <li>
+                            吉田光男, <span class="author">角田孝昭</span>, 山本幹雄, 荒瀬由紀, 津川翔. トレンドと検索頻度とWikipediaページビューの三角関係（招待講演）. 人工知能学会 インタラクティブ情報アクセスと可視化マイニング 第10回研究会, 東京大学, 2015年7月.
+                        </li>
+                        <li>
+                            <span class="author">Takaaki Tsunoda</span>. Utilizing review analysis to suggest product blurb improvement. ICT International Exchange Workshop 2014, University of Tsukuba, Nov. 2014.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>. <ruby><rb>御返還児童帝政</rb><rt>ごへんかんじどうていせい</rt></ruby>: 大域的文脈を考慮したかな漢字変換誤りの訂正. <a href="http://tgn.official.jp/%E9%99%A2%E7%94%9F%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%90%E3%83%88%E3%83%AB2011/">院生プレゼンバトル 2011</a> 本戦, 筑波大学, 2011年10月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>. 対象Webサービスに特化した日本語スペルチェッカーの開発. 「大規模情報コンテンツ時代の高度 ICT 専門職業人育成」事業 第1回シンポジウム, 筑波大学, 2011年3月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, 澤田健都, 吉田光男. 対象サービスに特化した日本語Webスペルチェッカーの開発. 第3回楽天研究開発シンポジウム, 東京都, 楽天タワー2号館, 2010年12月.
+                        </li>
+                    </ol>
                 </div><!--//summary-->
             </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Lead Developer</h3>
-                            <div class="time">2015 - Present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Startup Hubs, San Francisco</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Senior Software Engineer</h3>
-                            <div class="time">2014 - 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Google, London</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">UI Developer</h3>
-                            <div class="time">2012 - 2014</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Amazon, London</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-                
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-newspaper"></i></span>メディア掲載・取材協力</h2>
+
+                <div class="summary">
+                    <h3 class="job-title">Web メディア掲載</h3>
+                    <ul class="bibs">
+                        <li>
+                            <a href="http://gihyo.jp/news/report/2018/04/0501">大規模データを扱うための実践的知識を大公開「CyberAgent Data Engineering & Data Analysis Workshop #4 ～春の機械学習祭り～」レポート</a> (gihyo.jp)
+                        </li>
+                    </ul>
+
+                    <h3 class="job-title">雑誌掲載</h3>
+                    <ul class="bibs">
+                        <li>
+                            編集部が景気指数づくりに挑戦 筑波大、ＮＴＴデータと「つぶやき」解析. 週刊エコノミスト, 2013年5月27日（取材協力）.
+                        </li>
+                    </ul>
+                </div><!--//summary-->
             </section><!--//section-->
-            
-            <section class="section projects-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
-                <div class="intro">
-                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
-                </div><!--//intro-->
-                <div class="item">
-                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
-                    
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
-                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
-                </div><!--//item-->
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-graduation-cap"></i></span>教育活動</h2>
+
+                <div class="summary">
+                    <h3 class="job-title">ティーチングアシスタント（TA）、ティーチングフェロー（TF）</h3>
+                    <h4 class="subsubsection">筑波大学（学群）</h4>
+                    <ul>
+                        <li>
+                            「データ構造とアルゴリズム」（情報メディア創成学類）
+                            <p>2013年度</p>
+                        </li>
+                        <li>
+                            「データ構造とアルゴリズム実習」（情報メディア創成学類）
+                            <p>2011年度 - 2015年度</p>
+                        </li>
+                        <li>
+                            「情報特別演習」（情報科学類）、「情報メディア特別演習」（情報メディア創成学類）
+                            <p>2011年度 - 2012年度（ボーカロイドUGCクリエーション支援システム）</p>
+                        </li>
+                        <li>
+                            「知能情報メディア実験」（情報科学類）、「情報メディア実験」（情報メディア創成学類）
+                            <p>2011年度（ボーカロイドUGCクリエーション支援システム）、2014年度（日本語形態素解析と文書分類）</p>
+                        </li>
+                        <li>
+                            「情報処理（実習）」
+                            <p>2012年度（看護学類・比較文化学類）、2013年度（障害科学類）</p>
+                        </li>
+                        <li>
+                            「情報（実習）」
+                            <p>2014年度（体育専門学群）、2015年度（障害科学類）</p>
+                        </li>
+                    </ul>
+                    <h4 class="subsubsection">筑波大学（大学院）</h4>
+                    <ul>
+                        <li>
+                            「コンピュータサイエンス特別演習（修士論文中間発表会）」（コンピュータサイエンス専攻）
+                            <p>2013年度 - 2014年度</p>
+                        </li>
+                        <li>
+                            「コンピュータサイエンス特別演習（CSセミナー）」（コンピュータサイエンス専攻）
+                            <p>2014年度</p>
+                        </li>
+                    </ul>
+                </div><!--//summary-->
             </section><!--//section-->
-            
-            <section class="skills-section section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
-                <div class="skillset">        
-                    <div class="item">
-                        <h3 class="level-title">Python &amp; Django</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                               
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Javascript &amp; jQuery</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                              
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Angular</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">HTML5 &amp; CSS</h3>
-                        <div class="progress level-bar">
-							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Ruby on Rails</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                  
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Sketch &amp; Photoshop</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                 
-                    </div><!--//item-->
-                    
-                </div>  
-            </section><!--//skills-section-->
-            
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-check"></i></span>そのほか</h2>
+
+                <div class="summary">
+                    <h3 class="job-title">特許</h3>
+                    <ul class="bibs">
+                        <li>
+                            楽天株式会社. <span class="author">角田孝昭</span>, スタンキエヴィッチ ゾフィア. 情報処理システム、情報処理方法、および情報処理プログラム. 特許第5775241号（国際公開番号 WO2015/133009）. 2015-07-10 登録.
+                        </li>
+                    </ul>
+
+                    <h3 class="job-title">受賞歴</h3>
+                    <ul class="bibs">
+                        <li>
+                            <span class="author">角田孝昭</span>. 筑波大学 情報学群, 情報学群長表彰, 2011年3月.
+                        </li>
+                        <li>
+                            <span class="author">角田孝昭</span>, 澤田健都, 吉田光男. 第3回楽天研究開発シンポジウム, 最優秀データチャレンジ賞, 2010年12月.
+                        </li>
+                    </ul>
+
+                    <h3 class="job-title">資格</h3>
+                    <ul>
+                        <li>情報処理技術者試験 システムアーキテクト試験 (平成23年秋期)</li>
+                        <li>TOEIC (R) 公開テスト 860点 (第170回/2012年5月) &lt;- 770点 (第154回/2010年5月)</li>
+                    </ul>
+
+                    <h3 class="job-title">所属学会</h3>
+                    <ul>
+                        <li>言語処理学会（2011年〜）</li>
+                        <li>人工知能学会（2014年〜）</li>
+                        <li>情報処理学会（2014年〜2016年）</li>
+                    </ul>
+                </div><!--//summary-->
+            </section><!--//section-->
+
+            <p>更新日: 2019年5月25日.</p>
+
         </div><!--//main-body-->
     </div>
- 
+
     <footer class="footer">
         <div class="text-center">
                 <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other commercial license options via our website: themes.3rdwavemedia.com */-->
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
-        
-</body>
-</html> 
 
+</body>
+</html>
